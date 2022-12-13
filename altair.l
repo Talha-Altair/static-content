@@ -5,8 +5,8 @@
   
 /* Rule Section */
  %%
-[aA] {return A;}
-[bB] {return B;}
+0 {return 0;}
+1 {return 1;}
 \n {return NL;}
 .  {return yytext[0];}
 %%
